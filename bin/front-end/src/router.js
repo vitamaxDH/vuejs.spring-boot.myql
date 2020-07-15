@@ -1,10 +1,10 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import LoginPage from '@/views/LoginPage'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new router({
     mode: 'history',
     base: process.env.BASE_URL,
     routes: [{
